@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  color: #fff;
+  text-align: center;
+  background: #000 url("../img/headerbg.jpg") no-repeat center/cover;
+  padding-bottom: 40px;
+}
+
+.header-title {
+  margin-top: 80px;
+  font-size: 36px;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.header-video {
+  margin-top: 40px;
+}
+
+.header-arrow {
+  margin-top: 80px;
+}
+
+.slider-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.feature {
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+.feature-title {
+  font-size: 21px;
+}
+
+.footer {
+  padding-bottom: 60px;
+}
+
+.footer-text__title {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 80px;
+}
+
+.footer-text__subtitle {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  font-size: 21px;
+  margin-bottom: 20px;
+}
+
+.footer-text__newPrice {
+  border: none;
+  background-color: #f2b90f;
+  padding: 20px;
+}
+
+.footer-text__oldPrice {
+  border: none;
+  background-color: transparent;
+  text-decoration: line-through;
+  padding: 20px;
+  border: 1px solid #000;
+}
+
+.price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.footer-text__newPrice {
+  margin-right: 10px;
+}
+
+.footer-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  border: 2px solid #000;
+  padding: 10px;
+}
+
+.form-title {
+  font-size: 21px;
+  margin-bottom: 30px;
+}
+
+.button {
+  border: none;
+  background-color: #f2b90f;
+  padding: 10px 25px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.timer {
+  cursor: pointer;
+}
+
+input {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+}
+
+.slider-img {
+  width: 800px;
+  height: 350px;
+}
