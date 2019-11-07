@@ -1,0 +1,237 @@
+.main {
+  position: relative;
+  font-family: 'Gotham Pro Regular';
+  background: url(../img/001_header/001_headerBG.jpg) no-repeat top;
+  height: 801px;
+}
+
+.main-circle {
+  position: absolute;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, right top, from(#DF4071), to(#7333C2));
+  background: linear-gradient(to right, #DF4071, #7333C2);
+}
+
+.main-form {
+  margin-bottom: 61px;
+}
+
+.main-img__tel {
+  margin-top: 116px;
+  max-width: 590px;
+}
+
+.main-text__title {
+  font-size: 46px;
+  line-height: 58px;
+  color: #fff;
+  margin-bottom: 27px;
+}
+
+.main-text__subtitle {
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 39px;
+}
+
+.main-text__more {
+  text-decoration: none;
+  color: #fff;
+  font-size: 20px;
+}
+
+.main-form__input {
+  border-radius: 50px;
+  padding: 24px 100px 23px 21px;
+  margin-right: 13px;
+}
+
+.about {
+  position: relative;
+}
+
+.about-mail {
+  position: absolute;
+  top: 13%;
+  left: 42%;
+}
+
+.about-like {
+  position: absolute;
+  top: 17%;
+  left: 48%;
+  z-index: 3;
+}
+
+.about-two {
+  position: absolute;
+  top: 80%;
+  left: 22%;
+}
+
+.about-text__title {
+  font-family: 'Gotham Pro Medium';
+  font-size: 47px;
+  line-height: 58px;
+  margin-bottom: 54px;
+}
+
+.about-text__subtitle {
+  font-family: 'Gotham Pro Medium';
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.about-text__subtitleone {
+  margin-bottom: 30px;
+}
+
+.about-strong {
+  font-weight: Bold;
+}
+
+.box-wrap {
+  position: relative;
+  z-index: 1;
+  min-height: 322px;
+  border: 2px solid #D94076;
+  border-radius: 15px;
+  margin-bottom: 20px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.box-wrap:hover {
+  position: relative;
+  z-index: 3;
+  cursor: pointer;
+  background: linear-gradient(134.65deg, #DE4072 0%, #7834BF 98.35%);
+  -webkit-box-shadow: 6px 4px 19px rgba(255, 186, 212, 0.98);
+          box-shadow: 6px 4px 19px rgba(255, 186, 212, 0.98);
+  border-radius: 15px;
+  color: #fff;
+}
+
+.tools-box__title {
+  font-family: 'Gotham Pro Medium';
+  font-size: 23px;
+  line-height: 29px;
+  padding-top: 43px;
+  padding-left: 24px;
+}
+
+.tools-box__img {
+  min-width: 118px;
+  padding-top: 92px;
+  padding-left: 24px;
+  padding-bottom: 22px;
+}
+
+.tools-text__title {
+  font-family: 'Gotham Pro Medium';
+  font-size: 47px;
+  line-height: 58px;
+  text-align: center;
+  padding: 66px 0 86px;
+}
+
+.box-img {
+  padding-top: 68px;
+}
+
+.public {
+  margin-top: 108px;
+  padding-top: 108px;
+  background: url(../img/005_public/publicBG.jpg) no-repeat top;
+}
+
+.public-ul {
+  font-family: 'Gotham Pro Regular';
+  font-size: 20px;
+  line-height: 25px;
+}
+
+.public-ul li {
+  list-style-image: linear-gradient(97.06deg, #DF4071 7.01%, #7333C2 92.91%) inside;
+}
+
+.public-title {
+  font-family: 'Gotham Pro Medium';
+  font-size: 47px;
+  line-height: 58px;
+  padding-bottom: 79px;
+}
+
+/* .public-ul__li
+  font-family: 'Gotham Pro Regular'
+  font-size: 20px
+  line-height: 25px
+  &::before
+    display: block
+    content: ''
+    width: 19px
+    height: 19px
+    background: linear-gradient(97.06deg, #DF4071 7.01%, #7333C2 92.91%) */
+.public-img {
+  max-width: 600px;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  max-width: 1920px;
+  margin: auto;
+  padding: auto;
+}
+
+*:before, *:after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.header {
+  padding: 18px 0 17px;
+}
+
+.circle {
+  height: 69px;
+  width: 69px;
+  border-radius: 50%;
+  margin: 0 auto;
+  background: -webkit-gradient(linear, left top, right top, from(#DF4071), to(#7333C2));
+  background: linear-gradient(to right, #DF4071, #7333C2);
+}
+
+.button-o {
+  padding: 24px 81px;
+  border: 2px solid;
+  background: transparent;
+  border-radius: 60px;
+  -o-border-image: linear-gradient(to bottom, #DF4071, #7333C2);
+     border-image: -webkit-gradient(linear, left top, left bottom, from(#DF4071), to(#7333C2));
+     border-image: linear-gradient(to bottom, #DF4071, #7333C2);
+  border-image-slice: 1;
+}
+
+.button-o:hover {
+  cursor: pointer;
+}
+
+.button {
+  padding: 24px 34px;
+  border-radius: 60px;
+  background: linear-gradient(108.23deg, #DF4071 6.75%, #7333C2 93.81%);
+  border: none;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size: 16px;
+  color: #fff;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+/*# sourceMappingURL=style.css.map */
