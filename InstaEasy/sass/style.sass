@@ -1,7 +1,19 @@
+@import "variables"
 @import "main"
 @import "about"
 @import "tools"
 @import "public"
+@import "promotion"
+@import "result"
+@import "tarif"
+@import "efficiency"
+@import "parameter"
+@import "club"
+@import "secure"
+
+
+
+
 
 *
   box-sizing: border-box
@@ -13,6 +25,10 @@
 
 .header
   padding: 18px 0 17px
+  &-button
+    display: flex
+    &:hover
+      cursor: pointer
 .circle 
   height: 69px
   width: 69px
@@ -23,8 +39,8 @@
   padding: 24px 81px 
   border: 2px solid
   background: transparent
-  border-radius: 60px
   border-image: linear-gradient(to bottom, #DF4071, #7333C2)
+  border-radius: 60px
   border-image-slice: 1
   &:hover
     cursor: pointer
@@ -40,7 +56,26 @@
   color: #fff
   &:hover
     cursor: pointer
-
+.ru-btn
+  padding: 13px 30px
+  background: transparent
+  border: 1px solid #fff
+.en-btn
+  padding: 13px 30px
+  background: transparent
+.footer
+  font-family: $regular
+  font-size: 18px
+  line-height: 22px
+  color: #FFFFFF
+  background-color: #444444
+  padding-top: 55px
+  padding-bottom: 50px 
+  &-text
+    padding-bottom: 21px
+    transform: translateY(10px)
+  &-language
+    display: flex
   
   
   

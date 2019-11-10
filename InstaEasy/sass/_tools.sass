@@ -6,14 +6,19 @@
   border-radius: 15px
   margin-bottom: 20px
   transition: 0.3s
-  &:hover
+  &:hover 
     position: relative
-    z-index: 3
+    z-index: 99
     cursor: pointer
-    background: linear-gradient(134.65deg, #DE4072 0%, #7834BF 98.35%);
-    box-shadow: 6px 4px 19px rgba(255, 186, 212, 0.98);
-    border-radius: 15px;
+    background-color: #fff
+    background: linear-gradient(134.65deg, #DE4072, #7834BF 98.35%)
+    box-shadow: 6px 4px 19px rgba(255, 186, 212, 0.98)
+    border-radius: 15px
     color: #fff
+  &:hover img
+    display: none
+    
+    
 .tools-box__title
   font-family: 'Gotham Pro Medium'
   font-size: 23px
@@ -25,6 +30,8 @@
   padding-top: 92px
   padding-left: 24px
   padding-bottom: 22px
+  transition: 0.3s
+  position: relative
 .tools-text__title
   font-family: 'Gotham Pro Medium'
   font-size: 47px

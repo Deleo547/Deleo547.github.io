@@ -1,0 +1,73 @@
+.promotion
+  position: relative
+  font-family: $regular
+  height: 100vh
+  background: url(../img/006_promotion/promotionBG.png) no-repeat center
+  background-size: 1920px
+  &-title
+    display: block
+    margin-bottom: 134px
+    font-size: 47px
+    line-height: 58px
+    text-align: center
+  &-box
+    padding-top: 33px   
+  &-wrap
+    &__one
+      transform: translateY(-20px)
+      &::before
+        position: absolute
+        content: ''
+        top: 67%
+        left: -10px
+        width: 8px
+        height: 100px
+        background-color: #7834BF
+        display: block
+        z-index: 1
+        
+    &__two
+      transform: translateY(-110px)
+      &::before
+        position: absolute
+        content: ''
+        top: 63%
+        left: -10px
+        width: 8px
+        height: 120px
+        background-color: #DD4073
+        display: block
+        z-index: 1
+    &__three
+      transform: translateY(75px)
+      &::before
+        position: absolute
+        content: ''
+        top: 59%
+        left: -10px
+        width: 8px
+        height: 145px
+        background-color: #FF803B
+        display: block
+        z-index: 1
+.circle-left
+  position: absolute
+  display: block
+  top: -130px
+  left: -130px
+  height: 260px
+  width: 260px
+  border-radius: 50%
+  margin: 0 auto
+  background: linear-gradient(227.19deg, rgba(128, 53, 186, 0.44) 22.87%, rgba(221, 64, 116, 0.44) 77.46%)
+.circle-right
+  position: absolute
+  display: block
+  top: -60px
+  right: 50px
+.prom
+  position: relative
+.prom-img
+  position: absolute
+  top: 12%
+  left: -15%
