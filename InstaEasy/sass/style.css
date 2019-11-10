@@ -325,8 +325,9 @@
 
 .prom-img {
   position: absolute;
+  width: 210vh;
   top: 12%;
-  left: -15%;
+  left: -8%;
 }
 
 .result {
